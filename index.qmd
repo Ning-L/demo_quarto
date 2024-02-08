@@ -120,7 +120,7 @@ Check out the full list in the [Quarto's guide](https://quarto.org/docs/guide/) 
 
 ![](figs/ARTbio_logo_twitter.jpg){style="float:right;" width=201}
 
-[RStudio Server](https://artbio.snv.jussieu.fr/rstudio/auth-sign-in)
+[RStudio Server]()
 
 
 ## References {.smaller}
