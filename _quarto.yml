@@ -1,5 +1,6 @@
 project:
   type: website
+  execute-dir: project
 
 website:
   title: "demo_quarto"
@@ -14,6 +15,4 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-
-editor: visual
 
