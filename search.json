@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html#what-is-r-markdown-quarto",
+    "href": "index.html#what-is-r-markdown-quarto",
+    "title": "Automatic Reporting",
+    "section": "What is R Markdown / Quarto",
+    "text": "What is R Markdown / Quarto\n\nFile formats for making dynamic documents with R and/or other languages (Python, Julia, C, Bash, CSS, etc.).\n\nBoth:\n\nuse markdown syntax (markup language that you can use to add formatting elements to plaintext text documents)\ncontain chunks of embedded codes\n\n\nMarkdown est un ensemble de conventions pour mettre en forme du texte brut."
+  },
+  {
+    "objectID": "index.html#minimal-elements",
+    "href": "index.html#minimal-elements",
+    "title": "Automatic Reporting",
+    "section": "Minimal Elements…",
+    "text": "Minimal Elements…\n\n\n\n\n---\ntitle: \"Automatic Report\"\noutput: html_document\n---\n\nThis is an **R Markdown** document.\n\n## A Title\n\nYou can embed an R code chunk like this:\n\n```{r}\nsummary(cars)\n```\n\n\nAlways starts with a YAML header surrounded by ---\nFollowing by:\n\n\nText written in markdown, e.g.:\n\n# header level 1\n**bold**\nbullet-list\ninline code\n\nChunks of code surrounded by ``` with code type indicated within {}.\n\n\n\n\nUn en-tête YAML est une section entourrée par —, il nous aide à contrôler la façon dont rmarkdown/quarto restitue notre fichier. par exemple la taille des figures, leur résolution, le format de sortie qu’on veut. Toutes ces indications sont réalisée par des paires de clé:valeur"
+  },
+  {
+    "objectID": "index.html#examples",
+    "href": "index.html#examples",
+    "title": "Automatic Reporting",
+    "section": "Examples",
+    "text": "Examples\n\nSlight difference: YAML key: value pairs, chunk notation."
+  },
+  {
+    "objectID": "index.html#outputs",
+    "href": "index.html#outputs",
+    "title": "Automatic Reporting",
+    "section": "Outputs",
+    "text": "Outputs"
+  },
+  {
+    "objectID": "index.html#output-formats",
+    "href": "index.html#output-formats",
+    "title": "Automatic Reporting",
+    "section": "Output Formats",
+    "text": "Output Formats\n\nDocuments: HTML, PDF, MSWord\nPresentations: PowerPoint, Revealjs (the current slides^^), etc.\nManuscripts (templates for various journals and publishers)\nBooks\nWebsites\n…\n\nCheck out the full list in the Quarto’s guide and R Markdown formats from RStudio."
+  },
+  {
+    "objectID": "index.html#writing-strategy",
+    "href": "index.html#writing-strategy",
+    "title": "Automatic Reporting",
+    "section": "Writing Strategy",
+    "text": "Writing Strategy\n\nall-in-one\nkeep analysis in independent scripts, use R Markdown / Quarto to read and show results"
+  },
+  {
+    "objectID": "index.html#which-to-choose",
+    "href": "index.html#which-to-choose",
+    "title": "Automatic Reporting",
+    "section": "Which to Choose?",
+    "text": "Which to Choose?\nWith Quarto Coming, is R Markdown Going Away? No. – A blog of Yihui Xie\n\n\nQuarto: multi-language support, easy cross-referencing, under active development (new features / bugs)\nR Markdown: a bit more friendly to beginners, stable"
+  },
+  {
+    "objectID": "index.html#references",
+    "href": "index.html#references",
+    "title": "Automatic Reporting",
+    "section": "References",
+    "text": "References\n\nhttps://quarto.org/\nhttps://rmarkdown.rstudio.com\nhttps://shiny.posit.co/r/articles/build/rmarkdown/\nhttps://intro2r.com/what-is-r-markdown.html#\nhttps://bookdown.org/yihui/rmarkdown-cookbook/other-languages.html\nhttps://quarto.org/docs/faq/rmarkdown.html\nhttps://yihui.org/en/2022/04/quarto-r-markdown/\nhttps://www.youtube.com/watch?v=i6rajzMkpD0"
+  }
+]
