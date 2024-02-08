@@ -1,0 +1,137 @@
+---
+title: "Automatic Reporting"
+subtitle: "R Markdown / Quarto"
+author: "ARTbio Team"
+date: "2024-02-07"
+fig-align: "center"
+format:
+  revealjs:
+    slide-number: true
+    self-contained: true
+    progress: true
+---
+
+# Short Introduction
+
+## What is R Markdown / Quarto
+
+![](https://www.jumpingrivers.com/blog/quarto-rmarkdown-comparison/featured.png){style="float:right;" width=401}
+
+File formats for making dynamic documents with R and/or other languages (Python, Julia, C, Bash, CSS, *etc.*).
+
+<br>
+
+Both:
+
+- use markdown syntax (markup language that you can use to add formatting elements to plaintext text documents)
+- contain chunks of embedded codes
+
+::: {.notes}
+Markdown est un ensemble de conventions pour mettre en forme du texte brut.
+:::
+
+## Minimal Elements... {.smaller}
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+<br>
+
+````{.markdown}
+---
+title: "Automatic Report"
+output: html_document
+---
+
+This is an **R Markdown** document.
+
+## A Title
+
+You can embed an R code chunk like this:
+
+```{{r}}
+summary(cars)
+```
+````
+:::
+
+::: {.column width="50%"}
+
+1. Always starts with a **YAML** header surrounded by `---`
+
+2. Following by:
+  - Text written in **markdown**, *e.g.*: 
+    - `# header level 1` 
+    - `**bold**`
+    - bullet-list
+    - inline code
+  - Chunks of code surrounded by \`\`\` with code type indicated within `{}`.
+
+:::
+
+::::
+
+
+::: {.notes}
+Un en-tête YAML est une section entourrée par ---, il nous aide à contrôler la façon dont rmarkdown/quarto restitue notre fichier. par exemple la taille des figures, leur résolution, le format de sortie qu'on veut. Toutes ces indications sont réalisée par des paires de clé:valeur
+:::
+
+## Examples
+
+![](../figs/rmd_qmd.png)
+
+Slight difference: YAML `key: value` pairs, chunk notation.
+
+## Outputs
+
+![](../figs/rmd_qmd_out.png)
+
+
+## Output Formats
+
+* Documents: HTML, PDF, MSWord
+* Presentations: PowerPoint, Revealjs (the current slides^^), *etc.*
+* Manuscripts (templates for various journals and publishers)
+* Books
+* Websites
+* ...
+
+Check out the full list in the [Quarto's guide](https://quarto.org/docs/guide/) and [R Markdown formats from RStudio](https://rmarkdown.rstudio.com/formats.html).
+
+## Writing Strategy
+
+* all-in-one
+
+* keep analysis in independent scripts, use R Markdown / Quarto to read and show results
+
+## Which to Choose?
+
+[With Quarto Coming, is R Markdown Going Away? No.](https://yihui.org/en/2022/04/quarto-r-markdown/) -- A blog of Yihui Xie
+
+![](https://imgs.xkcd.com/comics/standards_2x.png)
+
+* Quarto: multi-language support, easy cross-referencing, under active development (new features / bugs)
+* R Markdown: a bit more friendly to beginners, stable
+
+
+# Let's Try!
+
+![](../figs/ARTbio_logo_twitter.jpg){style="float:right;" width=201}
+
+[RStudio Server](https://artbio.snv.jussieu.fr/rstudio/auth-sign-in)
+
+
+## References {.smaller}
+
+* https://quarto.org/
+* https://rmarkdown.rstudio.com
+* https://shiny.posit.co/r/articles/build/rmarkdown/
+* https://intro2r.com/what-is-r-markdown.html#
+* https://bookdown.org/yihui/rmarkdown-cookbook/other-languages.html
+* https://quarto.org/docs/faq/rmarkdown.html
+* https://yihui.org/en/2022/04/quarto-r-markdown/
+* https://www.youtube.com/watch?v=i6rajzMkpD0
+
+
