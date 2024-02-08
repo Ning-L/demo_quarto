@@ -54,5 +54,12 @@
     "title": "Automatic Reporting",
     "section": "References",
     "text": "References\n\nhttps://quarto.org/\nhttps://rmarkdown.rstudio.com\nhttps://shiny.posit.co/r/articles/build/rmarkdown/\nhttps://intro2r.com/what-is-r-markdown.html#\nhttps://bookdown.org/yihui/rmarkdown-cookbook/other-languages.html\nhttps://quarto.org/docs/faq/rmarkdown.html\nhttps://yihui.org/en/2022/04/quarto-r-markdown/\nhttps://www.youtube.com/watch?v=i6rajzMkpD0"
+  },
+  {
+    "objectID": "readme.html",
+    "href": "readme.html",
+    "title": "demo_quarto",
+    "section": "",
+    "text": "This is a demo for using Quarto to build presentation slides.\nPublishing website on GitHub using following command: quarto publish gh-pages"
   }
 ]
